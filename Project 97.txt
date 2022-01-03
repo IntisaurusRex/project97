@@ -1,0 +1,22 @@
+import random
+
+random = randInt(1,9)
+
+x = input("Guess the Number!") 
+
+chances = 5 
+
+
+if random > x :
+   print ("Your guess is too high!")
+   chances = chances - 1
+   
+elif random < x:
+     print ("Your guess is too low!")
+     chances = chances - 1
+
+elif random = x :
+     print ("Correct!")
+
+if chances < 5
+    print("You lose. The number was" random) 
